@@ -1,0 +1,8 @@
+{
+    "presets": ["@babel/env", "@babel/react", "airbnb"],
+    "plugins": [
+      "@babel/plugin-syntax-object-rest-spread",
+      "@babel/plugin-transform-runtime",
+      "babel-plugin-styled-components",
+    ]
+  }
