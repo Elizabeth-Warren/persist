@@ -4,7 +4,7 @@
   "description": "Shared library of React components and hooks. Persist responsibly.",
   "main": "build/index.js",
   "scripts": {
-    "build": "babel src -d build",
+    "build": "babel src -d build --ignore '**/*.stories.js,**/*.test.js,**/_*'",
     "prepare": "npm run build",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
@@ -50,6 +50,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.10.2"
   }
 }

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="HeroCard__Wrapper-sc-1lvrfd-0 ciWRsQ"
+>
+  <div
+    className="HeroCard__Content-sc-1lvrfd-1 fBGiIU"
+  >
+    <h1
+      className="HeroCard__Title-sc-1lvrfd-2 ifSnAB"
+    >
+      Pledge to vote
+    </h1>
+    <p
+      className="HeroCard__Subtitle-sc-1lvrfd-3 jzJWCX"
+    >
+      We are happy to have you in this fight. Thank you for committing to vote for Elizabeth in the New Hampshire primary!
+    </p>
+  </div>
+  <div
+    className="HeroCard__ImageWrapper-sc-1lvrfd-4 bFGAiE"
+  >
+    <img
+      alt=""
+      className="HeroCard__Image-sc-1lvrfd-5 jVoVEh"
+      src="https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg"
+    />
+  </div>
+</div>
+`;
