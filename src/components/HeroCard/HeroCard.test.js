@@ -1,8 +1,6 @@
-/* eslint-env jest */
-
 import React from 'react';
 import renderer from 'react-test-renderer';
-import HeroCard from './HeroCard';
+import HeroCard from './index';
 
 it('renders correctly', () => {
   const heroProps = {

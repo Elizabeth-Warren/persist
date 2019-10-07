@@ -3,10 +3,11 @@
 // similar to what's happening with FormBlocks once the patterns are ironed out.
 
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
-import bp from '../utils/createBreakpointStyles';
-import theme from '../theme';
-import getContentfulImage from '../utils/getContentfulImage';
+import bp from '../../utils/createBreakpointStyles';
+import theme from '../../theme';
+import getContentfulImage from '../../utils/getContentfulImage';
 
 const Wrapper = styled.div`
   margin: auto;
@@ -68,13 +69,23 @@ const HeroCard = ({ title, subtitle, image }) => {
     <Wrapper>
       <Content>
         <Title>{title}</Title>
-        <Subtitle>{subtitle}</Subtitle>
+        {subtitle && <Subtitle>{subtitle}</Subtitle>}
       </Content>
       <ImageWrapper>
         <Image src={imageUrl} alt="" />
       </ImageWrapper>
     </Wrapper>
   );
+};
+
+HeroCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string,
+  image: PropTypes.string.isRequired,
+};
+
+HeroCard.defaultProps = {
+  subtitle: null,
 };
 
 export default HeroCard;

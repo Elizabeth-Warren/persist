@@ -2,28 +2,28 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="HeroCard__Wrapper-sc-1lvrfd-0 ciWRsQ"
+  className="HeroCard__Wrapper-sc-1r8q2e9-0 hPuwQv"
 >
   <div
-    className="HeroCard__Content-sc-1lvrfd-1 fBGiIU"
+    className="HeroCard__Content-sc-1r8q2e9-1 dhxduP"
   >
     <h1
-      className="HeroCard__Title-sc-1lvrfd-2 ifSnAB"
+      className="HeroCard__Title-sc-1r8q2e9-2 czWlOA"
     >
       Pledge to vote
     </h1>
     <p
-      className="HeroCard__Subtitle-sc-1lvrfd-3 jzJWCX"
+      className="HeroCard__Subtitle-sc-1r8q2e9-3 dbfnUa"
     >
       We are happy to have you in this fight. Thank you for committing to vote for Elizabeth in the New Hampshire primary!
     </p>
   </div>
   <div
-    className="HeroCard__ImageWrapper-sc-1lvrfd-4 bFGAiE"
+    className="HeroCard__ImageWrapper-sc-1r8q2e9-4 dtdUHu"
   >
     <img
       alt=""
-      className="HeroCard__Image-sc-1lvrfd-5 jVoVEh"
+      className="HeroCard__Image-sc-1r8q2e9-5 iMvRoQ"
       src="https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg"
     />
   </div>

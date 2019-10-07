@@ -1,2 +1,6 @@
 .babelrc
+.editorconfig
+.eslintrc.js
+/.storybook
 /src
+/tests
