@@ -3,6 +3,7 @@
   "plugins": [
     "@babel/plugin-syntax-object-rest-spread",
     "@babel/plugin-transform-runtime",
-    "babel-plugin-styled-components"
+    "babel-plugin-styled-components",
+    "transform-react-remove-prop-types"
   ]
 }
