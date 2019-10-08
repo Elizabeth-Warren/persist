@@ -64,7 +64,7 @@ const Image = styled.img`
 `;
 
 const HeroCard = ({ title, subtitle, image }) => {
-  const imageUrl = getContentfulImage(image);
+  const imageUrl = getContentfulImage(image, { w: 690 });
   return (
     <Wrapper>
       <Content>
@@ -79,8 +79,14 @@ const HeroCard = ({ title, subtitle, image }) => {
 };
 
 HeroCard.propTypes = {
+  /** Card title. */
   title: PropTypes.string.isRequired,
+  /** Optional card subtitle. */
   subtitle: PropTypes.string,
+  /**
+   * Card image. If this is an image path coming from Contentful it will be
+   * normalized with a protocol and resized to a width of 690px.
+   */
   image: PropTypes.string.isRequired,
 };
 
