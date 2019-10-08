@@ -1,8 +1,11 @@
 import React from 'react';
+import { addParameters } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
 import HeroCard from './index';
 
-export default { title: 'HeroCard' };
+addParameters({ jest: ['HeroCard'] });
+
+export default { title: 'Components/HeroCard' };
 
 export const withContent = () => {
   const title = text('Title', 'Pledge to vote');
