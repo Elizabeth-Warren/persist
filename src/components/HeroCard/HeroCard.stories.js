@@ -1,13 +1,11 @@
 import React from 'react';
-import { addParameters } from '@storybook/react';
 import { text } from '@storybook/addon-knobs';
 import HeroCard from './index';
-
-addParameters({ jest: ['HeroCard'], actions: { disabled: true } });
 
 export default {
   title: 'Components/HeroCard',
   component: HeroCard,
+  parameters: { jest: ['HeroCard'], actions: { disabled: true } },
 };
 
 export const withContent = () => {

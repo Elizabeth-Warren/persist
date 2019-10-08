@@ -1,9 +1,6 @@
 import React from 'react';
-import { addParameters } from '@storybook/react';
 import styled from 'styled-components';
 import theme from './theme';
-
-addParameters({ actions: { disabled: true } });
 
 const UnstyledList = styled.ul`
   list-style: none;
@@ -11,7 +8,7 @@ const UnstyledList = styled.ul`
   padding: 0;
 `;
 
-export default { title: 'Theme' };
+export default { title: 'Theme', parameters: { actions: { disabled: true }, jest: [] } };
 
 export const colors = () => {
   const List = styled(UnstyledList)`
