@@ -1,6 +1,9 @@
 .babelrc
 .editorconfig
 .eslintrc.js
+.jest-test-results.json
+jest.config.js
 /.storybook
 /src
+/storybook-static
 /tests
