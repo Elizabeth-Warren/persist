@@ -5,7 +5,10 @@ import HeroCard from './index';
 
 addParameters({ jest: ['HeroCard'] });
 
-export default { title: 'Components/HeroCard' };
+export default {
+  title: 'Components/HeroCard',
+  component: HeroCard,
+};
 
 export const withContent = () => {
   const title = text('Title', 'Pledge to vote');
