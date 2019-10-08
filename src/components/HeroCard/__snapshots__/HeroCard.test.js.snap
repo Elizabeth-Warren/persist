@@ -1,30 +1,100 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c0 {
+  margin: auto;
+  max-width: 1150px;
+}
+
+.c1 {
+  background: #232444;
+  color: #fff;
+  padding: 32px 32px;
+}
+
+.c2 {
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 0.9;
+  margin: 0 0 24px;
+  text-transform: uppercase;
+}
+
+.c3 {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.c4 {
+  margin: -32px 32px 0;
+}
+
+.c5 {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media (min-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width:768px) {
+  .c1 {
+    padding: 32px;
+    width: 33.333%;
+  }
+}
+
+@media (min-width:1024px) {
+  .c2 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width:768px) {
+  .c4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    width: 66.667%;
+  }
+}
+
 <div
-  className="HeroCard__Wrapper-sc-1r8q2e9-0 hPuwQv"
+  className="c0"
 >
   <div
-    className="HeroCard__Content-sc-1r8q2e9-1 dhxduP"
+    className="c1"
   >
     <h1
-      className="HeroCard__Title-sc-1r8q2e9-2 czWlOA"
+      className="c2"
     >
       Pledge to vote
     </h1>
     <p
-      className="HeroCard__Subtitle-sc-1r8q2e9-3 dbfnUa"
+      className="c3"
     >
       We are happy to have you in this fight. Thank you for committing to vote for Elizabeth in the New Hampshire primary!
     </p>
   </div>
   <div
-    className="HeroCard__ImageWrapper-sc-1r8q2e9-4 dtdUHu"
+    className="c4"
   >
     <img
       alt=""
-      className="HeroCard__Image-sc-1r8q2e9-5 iMvRoQ"
-      src="https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg"
+      className="c5"
+      src="https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg?w=767"
     />
   </div>
 </div>
