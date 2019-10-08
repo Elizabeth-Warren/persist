@@ -63,8 +63,10 @@ const Image = styled.img`
   max-width: 100%;
 `;
 
+const w = Math.round(parseInt(theme.maxWidth.section, 10) * 0.667);
+
 const HeroCard = ({ title, subtitle, image }) => {
-  const imageUrl = getContentfulImage(image, { w: 724 });
+  const imageUrl = getContentfulImage(image, { w });
   return (
     <Wrapper>
       <Content>
