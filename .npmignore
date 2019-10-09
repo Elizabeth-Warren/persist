@@ -4,6 +4,7 @@
 .jest-test-results.json
 jest.config.js
 /.storybook
+/.vscode
 /src
 /storybook-static
 /tests

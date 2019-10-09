@@ -1,0 +1,13 @@
+{
+  "editor.rulers": [80],
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.validate": [
+      {"language": "javascript", "autoFix": true},
+      {"language": "javascriptreact", "autoFix": true},
+      {"language": "json", "autoFix": true},
+      {"language": "html", "autoFix": true},
+  ],
+  "files.autoSave": "off"
+}
