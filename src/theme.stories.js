@@ -8,8 +8,8 @@ const UnstyledList = styled.ul`
   padding: 0;
 `;
 
-const SwatchList = styled(UnstyledList)`
-  display: grid
+const GridList = styled.ul`
+  display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 `;
@@ -32,7 +32,7 @@ export default { title: 'Theme', parameters: { actions: { disabled: true }, jest
 export const colors = () => (
   <div>
     <p><code>theme.colors</code></p>
-    <SwatchList>
+    <GridList>
       {Object.entries(theme.colors).map(([name, value]) => (
         <ListItem key={value}>
           <Swatch bgColor={value} />
@@ -43,7 +43,7 @@ export const colors = () => (
           </div>
         </ListItem>
       ))}
-    </SwatchList>
+    </GridList>
   </div>
 );
 
