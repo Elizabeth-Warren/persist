@@ -4,19 +4,19 @@ import styled, { css } from 'styled-components';
 import bp from '../../utils/createBreakpointStyles';
 import theme from '../../theme';
 
-export const ButtonLevels = Object.freeze({
+export const ButtonLevels = {
   PRIMARY: 'primary',
   SECONDARY: 'secondary',
   TERTIARY: 'tertiary',
   INVERTED: 'inverted',
   WHITE: 'white',
-});
+};
 
-export const ButtonSizes = Object.freeze({
+export const ButtonSizes = {
   SM: 'sm',
   MD: 'md',
   LG: 'lg',
-});
+};
 
 const ButtonWrapper = styled.button`
   appearance: none;
