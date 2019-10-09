@@ -8,43 +8,44 @@ const UnstyledList = styled.ul`
   padding: 0;
 `;
 
+const SwatchList = styled(UnstyledList)`
+  display: grid
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+`;
+
+const ListItem = styled.li`
+  align-items: center;
+  display: flex;
+`;
+
+const Swatch = styled.div`
+  background: ${({ bgColor }) => bgColor};
+  border: 1px solid ${theme.colors.grey};
+  height: 80px;
+  margin-right: 8px;
+  width: 80px;
+`;
+
 export default { title: 'Theme', parameters: { actions: { disabled: true }, jest: [] } };
 
-export const colors = () => {
-  const List = styled(UnstyledList)`
-    display: grid
-    grid-gap: 16px;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  `;
-  const ListItem = styled.li`
-    align-items: center;
-    display: flex;
-  `;
-  const Swatch = styled.div`
-    background: ${({ bgColor }) => bgColor};
-    border: 1px solid ${theme.colors.grey};
-    height: 80px;
-    margin-right: 8px;
-    width: 80px;
-  `;
-  return (
-    <div>
-      <p><code>theme.colors</code></p>
-      <List>
-        {Object.entries(theme.colors).map(([name, value]) => (
-          <ListItem key={value}>
-            <Swatch bgColor={value} />
-            <div>
-              <b>{name}</b>
-              <br />
-              {value}
-            </div>
-          </ListItem>
-        ))}
-      </List>
-    </div>
-  );
-};
+export const colors = () => (
+  <div>
+    <p><code>theme.colors</code></p>
+    <SwatchList>
+      {Object.entries(theme.colors).map(([name, value]) => (
+        <ListItem key={value}>
+          <Swatch bgColor={value} />
+          <div>
+            <b>{name}</b>
+            <br />
+            {value}
+          </div>
+        </ListItem>
+      ))}
+    </SwatchList>
+  </div>
+);
 
 export const fontFamily = () => (
   <div>
