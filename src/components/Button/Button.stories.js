@@ -13,6 +13,7 @@ const handleClick = action('button clicked');
 export default {
   title: 'Components/Button',
   component: Button,
+  parameters: { jest: ['Button'] },
 };
 
 export const withKnobs = () => {
