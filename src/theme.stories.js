@@ -51,7 +51,7 @@ export const fontFamily = () => (
     <p><code>theme.fontFamily</code></p>
     <UnstyledList>
       {Object.entries(theme.fontFamily).map(([name, value]) => (
-        <li style={{ fontFamily: value, fontSize: theme.fontSize.lg, marginBottom: '16px' }}>
+        <li style={{ fontFamily: value, fontSize: theme.fontSize.lg, marginBottom: '16px' }} key={name}>
           <b>
             {`${name}: `}
           </b>
@@ -67,7 +67,7 @@ export const fontSize = () => (
     <p><code>theme.fontSize</code></p>
     <UnstyledList>
       {Object.entries(theme.fontSize).map(([name, value]) => (
-        <li style={{ fontSize: value, marginBottom: '16px' }}>
+        <li style={{ fontSize: value, marginBottom: '16px' }} key={name}>
           <b>
             {`${name}: `}
           </b>
@@ -85,7 +85,7 @@ export const leading = () => {
       <p><code>theme.leading</code></p>
       <UnstyledList>
         {Object.entries(theme.leading).map(([name, value]) => (
-          <li style={{ marginBottom: '16px', maxWidth: '400px' }}>
+          <li style={{ marginBottom: '16px', maxWidth: '400px' }} key={name}>
             <div>
               <b>
                 {`${name}: `}
@@ -112,7 +112,7 @@ values.
     </p>
     <UnstyledList>
       {Object.entries(theme.maxWidth).map(([name, value]) => (
-        <li style={{ marginBottom: '16px' }}>
+        <li style={{ marginBottom: '16px' }} key={name}>
           <div>
             <b>
               {`${name}: `}
@@ -135,7 +135,7 @@ export const screens = () => (
     <p>Media query breakpoints.</p>
     <UnstyledList>
       {Object.entries(theme.screens).map(([name, value]) => (
-        <li>
+        <li key={name}>
           <b>
             {`${name}: `}
           </b>
@@ -156,7 +156,7 @@ export const spacing = () => (
     </p>
     <UnstyledList>
       {Object.entries(theme.spacing).map(([name, value]) => (
-        <li style={{ display: 'flex', marginBottom: '16px' }}>
+        <li style={{ display: 'flex', marginBottom: '16px' }} key={name}>
           <div style={{ marginRight: '16px', width: '80px' }}>
             <b>
               {`${name}: `}

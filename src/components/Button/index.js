@@ -35,7 +35,7 @@ const ButtonWrapper = styled.button`
         return theme.colors.red;
     }
   }};
-  border-color: ${({ level }) => {
+  border: 4px solid ${({ level }) => {
     switch (level) {
       case ButtonLevels.SECONDARY:
       case ButtonLevels.INVERTED:
@@ -50,7 +50,6 @@ const ButtonWrapper = styled.button`
     }
   }};
   border-radius: 0;
-  border-width: 4px;
   color: ${({ level }) => {
     switch (level) {
       case ButtonLevels.TERTIARY:
@@ -64,6 +63,7 @@ const ButtonWrapper = styled.button`
     }
   }};
   cursor: pointer;
+  display: inline-block;
   font-family: ${theme.fontFamily.compressed};
   font-size: ${({ size }) => {
     switch (size) {
@@ -88,6 +88,7 @@ const ButtonWrapper = styled.button`
         return `${theme.spacing.sp0} ${theme.spacing.sp2}`;
     }
   }};
+  text-decoration: none;
   text-transform: uppercase;
   transition: all 150ms linear;
 
