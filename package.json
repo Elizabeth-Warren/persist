@@ -64,6 +64,6 @@
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
     "test:watch": "npm run test:generate-output -- --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook  --quiet"
   }
 }
