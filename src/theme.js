@@ -1,4 +1,4 @@
-export default {
+export default Object.freeze({
   colors: {
     liberty: '#b7e4cf',
     lightLiberty: '#e3f4ec',
@@ -56,4 +56,4 @@ export default {
     sp6: '48px',
     sp8: '64px',
   },
-};
+});
