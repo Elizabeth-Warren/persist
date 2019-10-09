@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { action } from '@storybook/addon-actions';
 import { select, text } from '@storybook/addon-knobs';
 import Button, { ButtonLevels, ButtonSizes } from './index';
+import Chevron, { ChevronDirections } from '../Chevron';
 import theme from '../../theme';
 
 const getLevelOptions = () => select('Level', Object.values(ButtonLevels), Button.defaultProps.size);
@@ -36,6 +37,19 @@ export const asALink = () => {
       rel="noreferrer"
     >
       Go to Google
+    </Button>
+  );
+};
+
+export const withChevron = () => {
+  const buttonText = text('Text', 'Click me');
+  const level = getLevelOptions();
+  const size = getSizeOptions();
+  const direction = select('Chevron', Object.values(ChevronDirections), Chevron.defaultProps.direction);
+  return (
+    <Button level={level} size={size} onClick={handleClick}>
+      {buttonText}
+      <Chevron direction={direction} style={{ marginLeft: '0.3em' }} />
     </Button>
   );
 };
