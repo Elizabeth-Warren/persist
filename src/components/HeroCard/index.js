@@ -4,8 +4,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
-import bp from '../../utils/createBreakpointStyles';
+import styled from 'styled-components';
 import theme from '../../theme';
 import getContentfulImage from '../../utils/getContentfulImage';
 
@@ -51,11 +50,11 @@ const Subtitle = styled.p`
 const ImageWrapper = styled.div`
   margin: -${theme.spacing.sp4} ${theme.spacing.sp4} 0;
 
-  ${bp(theme.screens.md, css`
+  @media (min-width: ${theme.screens.md}) {
     display: flex;
     margin: 0;
     width: 66.667%;
-  `)}
+  }
 `;
 
 const Image = styled.img`
