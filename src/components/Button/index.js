@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
-import bp from '../../utils/createBreakpointStyles';
+import styled from 'styled-components';
 import theme from '../../theme';
 
 export const ButtonLevels = {
@@ -92,6 +91,11 @@ const ButtonWrapper = styled.button`
   text-transform: uppercase;
   transition: all 150ms linear;
 
+  &:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
   &:hover:not(:disabled) {
     background-color: ${({ level }) => {
     switch (level) {
@@ -116,14 +120,9 @@ const ButtonWrapper = styled.button`
   }};
   }
 
-  &:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
+  @media (min-width: ${theme.screens.md}) {
+    font-size: ${({ size }) => size === ButtonSizes.LG && theme.fontSize['2xl']};
   }
-
-  ${({ size }) => bp(theme.screens.md, css`
-    font-size: ${size === ButtonSizes.LG && theme.fontSize['2xl']};
-  `)};
 `;
 
 const Button = ({

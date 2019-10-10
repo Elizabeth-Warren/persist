@@ -14,6 +14,7 @@ const ChevronWrapper = styled.span`
   border-style: solid;
   border-width: 0.15em 0.15em 0 0;
   display: inline-block;
+  height: 0.45em;
   left: ${({ direction }) => {
     switch (direction) {
       case ChevronDirections.RIGHT:
@@ -25,20 +26,6 @@ const ChevronWrapper = styled.span`
         return 0;
     }
   }}em;
-  height: 0.45em;
-  transform: rotate(${({ direction }) => {
-    switch (direction) {
-      case ChevronDirections.UP:
-        return -45;
-      case ChevronDirections.DOWN:
-        return 135;
-      case ChevronDirections.LEFT:
-        return -135;
-      case ChevronDirections.RIGHT:
-      default:
-        return 45;
-    }
-  }}deg);
   position: relative;
   top: ${({ direction }) => {
     switch (direction) {
@@ -52,6 +39,19 @@ const ChevronWrapper = styled.span`
         return -0.1;
     }
   }}em;
+  transform: rotate(${({ direction }) => {
+    switch (direction) {
+      case ChevronDirections.UP:
+        return -45;
+      case ChevronDirections.DOWN:
+        return 135;
+      case ChevronDirections.LEFT:
+        return -135;
+      case ChevronDirections.RIGHT:
+      default:
+        return 45;
+    }
+  }}deg);
   width: 0.45em;
 `;
 

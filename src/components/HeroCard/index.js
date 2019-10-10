@@ -13,10 +13,10 @@ const Wrapper = styled.div`
   margin: auto;
   max-width: ${theme.maxWidth.section};
 
-  ${bp(theme.screens.md, css`
+  @media (min-width: ${theme.screens.md}) {
     display: flex;
     flex-direction: row-reverse
-  `)}
+  }
 `;
 
 const Content = styled.div`
@@ -24,23 +24,23 @@ const Content = styled.div`
   color: ${theme.colors.white};
   padding: ${theme.spacing.sp4} ${theme.spacing.sp4} ${theme.sp8};
 
-  ${bp(theme.screens.md, css`
+  @media (min-width: ${theme.screens.md}) {
     padding: ${theme.spacing.sp4};
     width: 33.333%;
-  `)}
+  }
 `;
 
 const Title = styled.h1`
   font-family: ${theme.fontFamily.compressed};
-  font-weight: bold;
   font-size: ${theme.fontSize['2xl']};
+  font-weight: bold;
   line-height: ${theme.leading.sub};
   margin: 0 0 ${theme.spacing.sp3};
   text-transform: uppercase;
 
-  ${bp(theme.screens.lg, css`
+  @media (min-width: ${theme.screens.lg}) {
     font-size: ${theme.fontSize['3xl']};
-  `)}
+  }
 `;
 
 const Subtitle = styled.p`
@@ -59,8 +59,8 @@ const ImageWrapper = styled.div`
 `;
 
 const Image = styled.img`
-  object-fit: cover;
   max-width: 100%;
+  object-fit: cover;
 `;
 
 const w = Math.round(parseInt(theme.maxWidth.section, 10) * 0.667);
