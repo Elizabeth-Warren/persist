@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 
   @media (min-width: ${theme.screens.md}) {
     display: flex;
-    flex-direction: row-reverse
+    flex-direction: row-reverse;
   }
 `;
 
