@@ -8,7 +8,7 @@ const UnstyledList = styled.ul`
   padding: 0;
 `;
 
-const GridList = styled.ul`
+const GridList = styled(UnstyledList)`
   display: grid;
   grid-gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
