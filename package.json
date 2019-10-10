@@ -68,10 +68,9 @@
     "build": "babel src --out-dir lib --source-maps inline --ignore '**/*.stories.js,**/*.test.js,**/_*'",
     "prepare": "npm run build",
     "lint": "eslint src --fix",
-    "lint:css": "stylelint './src/**/*.js'",
+    "lint:css": "stylelint './src/**/*.{js, css}'",
     "test": "jest",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
-    "test:watch": "npm run test:generate-output -- --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook  --quiet"
   },
@@ -81,9 +80,9 @@
     }
   },
   "lint-staged": {
-    "*.{js}": [
+    "*.js": [
       "eslint --fix",
-      "stylelint --fix",
+      "stylelint",
       "git add"
     ]
   }

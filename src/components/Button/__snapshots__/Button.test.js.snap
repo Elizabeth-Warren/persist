@@ -11,7 +11,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
   margin: auto;
@@ -24,14 +24,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c0:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c0:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c0:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c1 {
@@ -44,7 +44,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -57,14 +57,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c1:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c1:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c1:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c2 {
@@ -77,7 +77,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -90,14 +90,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c2:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c2:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c2:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c3 {
@@ -110,7 +110,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
   margin: auto;
@@ -123,14 +123,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c3:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c3:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c3:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c4 {
@@ -143,7 +143,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -156,14 +156,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c4:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c4:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c4:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c5 {
@@ -176,7 +176,7 @@ exports[`renders correctly 1`] = `
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -189,14 +189,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c5:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c5:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c5:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c6 {
@@ -209,7 +209,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
   margin: auto;
@@ -222,14 +222,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c6:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c6:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c6:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c7 {
@@ -242,7 +242,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -255,14 +255,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c7:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c7:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c7:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c8 {
@@ -275,7 +275,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -288,14 +288,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c8:hover:not(:disabled) {
-  background-color: transparent;
-  color: #232444;
-}
-
 .c8:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c8:hover:not(:disabled) {
+  background-color: transparent;
+  color: #232444;
 }
 
 .c9 {
@@ -308,7 +308,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
   margin: auto;
@@ -321,14 +321,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c9:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
-}
-
 .c9:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c9:hover:not(:disabled) {
+  background-color: #232444;
+  color: #fff;
 }
 
 .c10 {
@@ -341,7 +341,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -354,14 +354,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c10:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
-}
-
 .c10:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c10:hover:not(:disabled) {
+  background-color: #232444;
+  color: #fff;
 }
 
 .c11 {
@@ -374,7 +374,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -387,14 +387,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c11:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
-}
-
 .c11:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c11:hover:not(:disabled) {
+  background-color: #232444;
+  color: #fff;
 }
 
 .c12 {
@@ -407,7 +407,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
   margin: auto;
@@ -420,14 +420,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c12:hover:not(:disabled) {
-  background-color: transparent;
-  color: #fff;
-}
-
 .c12:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c12:hover:not(:disabled) {
+  background-color: transparent;
+  color: #fff;
 }
 
 .c13 {
@@ -440,7 +440,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -453,14 +453,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c13:hover:not(:disabled) {
-  background-color: transparent;
-  color: #fff;
-}
-
 .c13:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c13:hover:not(:disabled) {
+  background-color: transparent;
+  color: #fff;
 }
 
 .c14 {
@@ -473,7 +473,7 @@ exports[`renders correctly 1`] = `
   color: #232444;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica';
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 32px;
   line-height: 1;
   margin: auto;
@@ -486,14 +486,14 @@ exports[`renders correctly 1`] = `
   transition: all 150ms linear;
 }
 
-.c14:hover:not(:disabled) {
-  background-color: transparent;
-  color: #fff;
-}
-
 .c14:disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.c14:hover:not(:disabled) {
+  background-color: transparent;
+  color: #fff;
 }
 
 @media (min-width:768px) {
