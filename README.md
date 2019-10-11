@@ -95,7 +95,7 @@ $ npm i
 $ npm run storybook
 ```
 
-## Contributing
+## Contributing!!!
 
 This library follows [Airbnb style guidelines](https://github.com/airbnb/javascript) and is enforced with [eslint](https://eslint.org). [Styled components](https://www.styled-components.com/) are used for CSS-in-JS styling and style guideline conventions are enforced with [stylelint](https://stylelint.io/user-guide). Files are automatically linted and autofixed _when possible_ before being added to commits in git. Any style violations will throw errors when attempting to commit files. To lint files from the command line:
 
