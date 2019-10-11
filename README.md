@@ -6,7 +6,7 @@ A shared library of React components, hooks, styles and utility functions. Persi
 
 ### Creating a token
 
-Persist is available as a private npm package. To use Persist in your own project you will need an authentication token. If you are a member of the ewarren npm organization you can create your own.
+Persist is available as a private npm package. To use Persist in your own project you will need an authentication token. If you are a member of the @ewarren npm organization you can create your own.
 
 ```sh
 $ npm login
@@ -47,7 +47,7 @@ $ npm i @ewarren/persist
 
 ### Usage
 
-Components can then be individually imported into your JS files.
+Components are individually imported into your JS files.
 
 ```js
 // MyButton.js
@@ -58,7 +58,7 @@ const MyButton = () => (<Button>Hello world! <Chevron /></Button>);
 export default MyButton
 ```
 
-Optionally, some components enums for available props or styling functions available alongside the default export in their individual packages that can be included by importing the component directly.
+Optionally, some components have enums for possible prop values, or extendable styling functions that are made available alongside the default export in their individual packages that can be included by importing the component directly.
 
 ```js
 // MyButton.js
@@ -82,7 +82,7 @@ export default MyButton;
 
 A public version reflecting the latest code on master is available at [https://persistui.netlify.com](https://persistui.netlify.com).
 
-You can also run Storybook locally and use it as a development environment for creating and testing components (see ["storybook driven development"](https://medium.com/nulogy/storybook-driven-development-a3c517276c07)). Node is required. It can be installed via the [nodejs installer](https://nodejs.org/en/). Then:
+You can also run Storybook locally and use it as a development environment for creating and testing components (see ["storybook driven development"](https://medium.com/nulogy/storybook-driven-development-a3c517276c07)). Node 10 or higher is required. It can be installed via the [nodejs installer](https://nodejs.org/en/). Then:
 
 ```sh
 # Clone this repo

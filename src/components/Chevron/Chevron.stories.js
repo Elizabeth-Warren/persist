@@ -23,7 +23,7 @@ export const atDifferentSizes = () => {
           <b>{`${name} (${fontSize}): `}</b>
           {exampleText}
           {' '}
-          <Chevron direciton={direction} color={chevronColor} />
+          <Chevron direction={direction} color={chevronColor} />
         </div>
       ))}
     </div>
