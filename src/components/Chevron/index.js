@@ -13,6 +13,7 @@ const ChevronWrapper = styled.span`
   border-color: ${({ color }) => color};
   border-style: solid;
   border-width: 0.15em 0.15em 0 0;
+  box-sizing: border-box;
   display: inline-block;
   height: 0.45em;
   left: ${({ direction }) => {

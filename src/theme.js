@@ -1,5 +1,6 @@
 export default {
   colors: {
+    black: '#171717',
     liberty: '#b7e4cf',
     lightLiberty: '#e3f4ec',
     grey: '#d4d4da',
