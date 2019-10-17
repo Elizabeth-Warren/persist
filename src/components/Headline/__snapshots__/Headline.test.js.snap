@@ -15,7 +15,7 @@ exports[`renders correctly 1`] = `
 
 .c1 {
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: bold;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;

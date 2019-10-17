@@ -3,7 +3,7 @@
 exports[`renders correctly 1`] = `
 .c0 {
   font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: bold;
   -webkit-letter-spacing: 0;
   -moz-letter-spacing: 0;
