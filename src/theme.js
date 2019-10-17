@@ -1,4 +1,4 @@
-export default Object.freeze({
+export default {
   colors: {
     liberty: '#b7e4cf',
     lightLiberty: '#e3f4ec',
@@ -21,9 +21,11 @@ export default Object.freeze({
     base: '16px',
     md: '18px',
     lg: '22px',
-    xl: '32px',
-    '2xl': '42px',
-    '3xl': '72px',
+    xl: '26px',
+    '2xl': '36px',
+    '3xl': '42px',
+    '4xl': '72px',
+    '5xl': '110px',
   },
   leading: {
     sub: 0.9,
@@ -56,4 +58,4 @@ export default Object.freeze({
     sp6: '48px',
     sp8: '64px',
   },
-});
+};

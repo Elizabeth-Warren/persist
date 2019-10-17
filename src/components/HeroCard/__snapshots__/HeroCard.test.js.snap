@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
+.c3 {
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
+  font-size: 42px;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 0.9;
+  text-transform: uppercase;
+}
+
 .c0 {
   margin: auto;
   max-width: 1150px;
@@ -13,26 +24,31 @@ exports[`renders correctly 1`] = `
 }
 
 .c2 {
-  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 42px;
-  font-weight: bold;
-  line-height: 0.9;
   margin: 0 0 24px;
-  text-transform: uppercase;
 }
 
-.c3 {
+.c4 {
   font-size: 18px;
   line-height: 1.4;
 }
 
-.c4 {
+.c5 {
   margin: -32px 32px 0;
 }
 
-.c5 {
+.c6 {
   max-width: 100%;
   object-fit: cover;
+}
+
+@media (min-width:1024px) {
+  .c3 {
+    font-size: 72px;
+    -webkit-letter-spacing: -0.38px;
+    -moz-letter-spacing: -0.38px;
+    -ms-letter-spacing: -0.38px;
+    letter-spacing: -0.38px;
+  }
 }
 
 @media (min-width:768px) {
@@ -54,14 +70,8 @@ exports[`renders correctly 1`] = `
   }
 }
 
-@media (min-width:1024px) {
-  .c2 {
-    font-size: 72px;
-  }
-}
-
 @media (min-width:768px) {
-  .c4 {
+  .c5 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -78,22 +88,23 @@ exports[`renders correctly 1`] = `
     className="c1"
   >
     <h1
-      className="c2"
+      className="c2 c3"
+      size="lg"
     >
       Pledge to vote
     </h1>
     <p
-      className="c3"
+      className="c4"
     >
       We are happy to have you in this fight. Thank you for committing to vote for Elizabeth in the New Hampshire primary!
     </p>
   </div>
   <div
-    className="c4"
+    className="c5"
   >
     <img
       alt=""
-      className="c5"
+      className="c6"
       src="https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg?w=767"
     />
   </div>
