@@ -24,7 +24,7 @@ export default {
     lg: '22px',
     xl: '26px',
     '2xl': '36px',
-    '3xl': '42px',
+    '3xl': '40px',
     '4xl': '72px',
     '5xl': '110px',
   },
