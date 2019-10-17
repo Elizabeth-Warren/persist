@@ -28,7 +28,7 @@ export const gallery = () => (
         <TextLink level={level} onClick={handleClick} href="#">
           { startCase(level) }
           {' '}
-          link style
+          Link Style
         </TextLink>
 
       </p>
