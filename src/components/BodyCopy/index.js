@@ -34,9 +34,9 @@ const CopyWrapper = styled.span`
   line-height: ${({ size }) => {
     switch (size) {
       case BodyCopySizes.XL:
-        return 1.17;
+        return theme.leading.tight;
       default:
-        return 1.3;
+        return theme.leading.snug;
     }
   }};
 `;

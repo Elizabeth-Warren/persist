@@ -14,7 +14,7 @@ const sampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Don
 export const withKnobs = () => {
   const tag = text('Tag', 'p');
   const copy = text('Text', sampleText);
-  const size = select('Size', Object.values(BodyCopy), BodyCopy.defaultProps.size);
+  const size = select('Size', Object.values(BodyCopySizes), BodyCopy.defaultProps.size);
   return (
     <div>
       <BodyCopy
@@ -28,17 +28,13 @@ export const withKnobs = () => {
 };
 
 export const gallery = () => {
-  const headlineText = text('Text', sampleText);
+  const copy = text('Text', sampleText);
   return (
     <div>
-      <p>
-        Note that the font size for the XL and LG headlines changes depending
-        between mobile and tablet breakpoints.
-      </p>
       {Object.entries(BodyCopySizes).reverse().map(([name, value]) => (
         <BodyCopy as="p" size={value} key={name}>
           {`${name}: `}
-          {headlineText}
+          {copy}
         </BodyCopy>
       ))}
     </div>

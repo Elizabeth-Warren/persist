@@ -28,6 +28,7 @@ const HeadlineWrapper = styled.div`
         return theme.fontSize['3xl'];
     }
   }};
+  font-weight: bold;
   letter-spacing: ${({ size }) => {
     switch (size) {
       case HeadlineSizes.XL:

@@ -31,10 +31,10 @@ export default {
   leading: {
     sub: 0.9,
     none: 1,
-    tight: 1.25,
-    snug: 1.333,
+    tight: 1.17,
+    snug: 1.3,
     normal: 1.4,
-    relaxed: 1.625,
+    relaxed: 1.7,
     loose: 2,
   },
   maxWidth: {
