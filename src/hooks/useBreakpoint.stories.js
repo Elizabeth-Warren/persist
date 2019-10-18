@@ -4,7 +4,7 @@ import theme from '../theme';
 import useBreakpoint from './useBreakpoint';
 
 export default {
-  title: 'Hookes/useBreakpoint',
+  title: 'Hooks/useBreakpoint',
   parameters: { jest: ['useBreakpoint'] },
 };
 
