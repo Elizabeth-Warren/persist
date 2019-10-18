@@ -1,7 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import BodyCopy, { BodyCopySizes } from '../components/BodyCopy';
+import Headline, { HeadlineSizes } from '../components/Headline';
 import theme from '../theme';
-import useBreakpoint from './useBreakpoint';
+import useBreakpoint from './index';
 
 export default {
   title: 'Hooks/useBreakpoint',
@@ -22,7 +24,11 @@ the key is the name of the breakpoint and the value is the min-width for that va
       The Persist breakpoint map looks like the object below, but any map can be
       passed in to this hook.
     </p>
-    <p><pre>{JSON.stringify(theme.screens, null, 2)}</pre></p>
+    <pre>
+const breakpoints = {JSON.stringify(theme.screens, null, 2)};
+<br /><br />
+const {`{ current, isAbove, isBelow }`} = useBreakpoint(breakpoints);
+    </pre>
   </>
 );
 
@@ -73,6 +79,15 @@ export const isAbove = () => {
         <code>false</code>
         .
       </p>
+      <pre>
+const isTabletOrGreater = isAbove('md');
+<br />
+// => {isAboveBp('md') + ''}
+<br /><br />
+const isGreaterThanTablet = isAbove('md', false);
+<br />
+// => {isAboveBp('md', false) + ''}
+      </pre>
       {Object.keys(theme.screens).map((bp) => (
         <>
           <p>
@@ -121,6 +136,15 @@ inclusive by default because we want to be building components mobile-first.
         <code>true</code>
         .
       </p>
+      <pre>
+const isSmallerThanTablet = isBelow('md');
+<br />
+// => {isBelowBp('md') + ''}
+<br /><br />
+const isTabletOrSmaller = isBelow('md', true);
+<br />
+// => {isBelowBp('md', true) + ''}
+      </pre>
       {Object.keys(theme.screens).map((bp) => (
         <>
           <p>
@@ -144,3 +168,55 @@ inclusive by default because we want to be building components mobile-first.
     </div>
   );
 };
+
+export const withComponent = () => {
+  const { current: breakpoint } = useBreakpoint(theme.screens);
+  let size = null;
+  switch (breakpoint) {
+    case '2xl':
+    case 'lg':
+      size = BodyCopySizes.XL;
+      break;
+    case 'xs':
+    case 'sm':
+      size = BodyCopySizes.SM;
+      break;
+    default:
+      size = BodyCopySizes.MD;
+  }
+  debugger;
+  return(
+    <div>
+      <Headline size={HeadlineSizes.MD}>Code example</Headline>
+      <pre>
+const {'{ current: breakpoint }'} = useBreakpoint(theme.screens);<br />
+let size = null;<br />
+switch (breakpoint) {'{'}<br />
+{'  '}case '2xl':<br />
+{'  '}case 'xl':<br />
+{'    '}size = BodyCopySizes.XL;<br />
+{'    '}break;<br />
+{'  '}case 'xs':<br />
+{'  '}case 'sm':<br />
+{'    '}size = BodyCopySizes.SM;<br />
+{'    '}break;<br />
+{'  '}default:<br />
+{'    '}size = BodyCopySizes.MD;<br />
+{'}'}<br />
+return (<br />
+{'  <BodyCopy as="p" size={size}>'}<br />
+{'    <b>Breakpoint size: {breakpoint}:</b><br />'}<br />
+{'    <b>BodyCopy size prop: {size}</b><br />'}<br />
+{'    The quick brown fox jumped over the lazy dog.'}<br />
+{'  </BodyCopy>'}<br />
+);
+</pre>
+      <Headline size={HeadlineSizes.MD}>Result</Headline>
+      <BodyCopy as="p" size={size}>
+        <b>Breakpoint size: {breakpoint}:</b><br />
+        <b>BodyCopy size prop: {size}</b><br />
+        The quick brown fox jumped over the lazy dog.
+      </BodyCopy>
+    </div>
+  )
+}
