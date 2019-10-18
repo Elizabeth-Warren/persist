@@ -1,5 +1,6 @@
-export default Object.freeze({
+export default {
   colors: {
+    black: '#171717',
     liberty: '#b7e4cf',
     lightLiberty: '#e3f4ec',
     grey: '#d4d4da',
@@ -21,17 +22,19 @@ export default Object.freeze({
     base: '16px',
     md: '18px',
     lg: '22px',
-    xl: '32px',
-    '2xl': '42px',
-    '3xl': '72px',
+    xl: '26px',
+    '2xl': '36px',
+    '3xl': '40px',
+    '4xl': '72px',
+    '5xl': '110px',
   },
   leading: {
     sub: 0.9,
     none: 1,
-    tight: 1.25,
-    snug: 1.333,
+    tight: 1.17,
+    snug: 1.3,
     normal: 1.4,
-    relaxed: 1.625,
+    relaxed: 1.7,
     loose: 2,
   },
   maxWidth: {
@@ -56,4 +59,4 @@ export default Object.freeze({
     sp6: '48px',
     sp8: '64px',
   },
-});
+};

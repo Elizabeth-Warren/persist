@@ -5,6 +5,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Headline from '../Headline';
 import theme from '../../theme';
 import getContentfulImage from '../../utils/getContentfulImage';
 
@@ -30,16 +31,7 @@ const Content = styled.div`
 `;
 
 const Title = styled.h1`
-  font-family: ${theme.fontFamily.compressed};
-  font-size: ${theme.fontSize['2xl']};
-  font-weight: bold;
-  line-height: ${theme.leading.sub};
   margin: 0 0 ${theme.spacing.sp3};
-  text-transform: uppercase;
-
-  @media (min-width: ${theme.screens.lg}) {
-    font-size: ${theme.fontSize['3xl']};
-  }
 `;
 
 const Subtitle = styled.p`
@@ -69,7 +61,7 @@ const HeroCard = ({ title, subtitle, image }) => {
   return (
     <Wrapper>
       <Content>
-        <Title>{title}</Title>
+        <Headline as={Title} breakpoint={theme.screens.lg}>{title}</Headline>
         {subtitle && <Subtitle>{subtitle}</Subtitle>}
       </Content>
       <ImageWrapper>

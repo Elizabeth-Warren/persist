@@ -45,7 +45,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -78,7 +78,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -144,7 +144,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -177,7 +177,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -243,7 +243,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -276,7 +276,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -342,7 +342,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -375,7 +375,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -441,7 +441,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -474,7 +474,7 @@ exports[`renders correctly 1`] = `
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 1;
   margin: auto;
   max-width: 1150px;
@@ -498,31 +498,31 @@ exports[`renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c2 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
 @media (min-width:768px) {
   .c5 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
 @media (min-width:768px) {
   .c8 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
 @media (min-width:768px) {
   .c11 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
 @media (min-width:768px) {
   .c14 {
-    font-size: 42px;
+    font-size: 36px;
   }
 }
 
