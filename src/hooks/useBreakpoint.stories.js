@@ -174,7 +174,7 @@ export const withComponent = () => {
   let size = null;
   switch (breakpoint) {
     case '2xl':
-    case 'lg':
+    case 'xl':
       size = BodyCopySizes.XL;
       break;
     case 'xs':
@@ -213,7 +213,7 @@ return (<br />
 </pre>
       <Headline size={HeadlineSizes.MD}>Result</Headline>
       <BodyCopy as="p" size={size}>
-        <b>Breakpoint size: {breakpoint}:</b><br />
+        <b>Breakpoint size: {breakpoint}</b><br />
         <b>BodyCopy size prop: {size}</b><br />
         The quick brown fox jumped over the lazy dog.
       </BodyCopy>
