@@ -1,8 +1,8 @@
 /* eslint-disable */
 import React from 'react';
-import BodyCopy, { BodyCopySizes } from '../components/BodyCopy';
-import Headline, { HeadlineSizes } from '../components/Headline';
-import theme from '../theme';
+import BodyCopy, { BodyCopySizes } from '../../components/BodyCopy';
+import Headline, { HeadlineSizes } from '../../components/Headline';
+import theme from '../../theme';
 import useBreakpoint from './index';
 
 export default {

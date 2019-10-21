@@ -2,7 +2,7 @@
 import React from 'react';
 import { Context as ResponsiveContext } from 'react-responsive';
 import { mount } from 'enzyme';
-import theme from '../theme';
+import theme from '../../theme';
 import useBreakpoint from './index';
 
 describe('current', () => {
