@@ -56,13 +56,16 @@ const Image = styled.img`
 
 const w = Math.round(parseInt(theme.maxWidth.section, 10) * 0.667);
 
-const HeroCard = ({ title, subtitle, image }) => {
+const HeroCard = ({
+  children, title, subtitle, image,
+}) => {
   const imageUrl = getContentfulImage(image, { w });
   return (
     <Wrapper>
       <Content>
-        <Headline as={Title} breakpoint={theme.screens.lg}>{title}</Headline>
+        {title && <Headline as={Title} breakpoint={theme.screens.lg}>{title}</Headline>}
         {subtitle && <Subtitle>{subtitle}</Subtitle>}
+        {children}
       </Content>
       <ImageWrapper>
         <Image src={imageUrl} alt="" />
@@ -73,7 +76,7 @@ const HeroCard = ({ title, subtitle, image }) => {
 
 HeroCard.propTypes = {
   /** Card title. */
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   /** Optional card subtitle. */
   subtitle: PropTypes.string,
   /**
@@ -81,9 +84,12 @@ HeroCard.propTypes = {
    * normalized with a protocol and resized to a width of 724px.
    */
   image: PropTypes.string.isRequired,
+  /** Child text or elements */
+  children: PropTypes.node.isRequired,
 };
 
 HeroCard.defaultProps = {
+  title: null,
   subtitle: null,
 };
 

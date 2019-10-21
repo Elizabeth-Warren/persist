@@ -8,6 +8,7 @@ export { default as HeroCard } from './components/HeroCard';
 export { default as TextLink } from './components/TextLink';
 
 // Hooks
+export { default as useBreakpoint } from './hooks/useBreakpoint';
 
 // Utility functions
 export { default as getContentfulImage } from './utils/getContentfulImage';
