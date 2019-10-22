@@ -62,8 +62,8 @@ Optionally, some components have enums for possible prop values, or extendable s
 
 ```js
 // MyButton.js
-import Button, { ButtonLevels, ButtonSizes } from '@ewarren/persist/components/Button';
-import Chevron, { ChevronDirections } from '@ewarren/persist/components/Chevron';
+import Button, { ButtonLevels, ButtonSizes } from '@ewarren/persist/lib/components/Button';
+import Chevron, { ChevronDirections } from '@ewarren/persist/lib/components/Chevron';
 
 const MyButton = () => (
   <Button level={ButtonLevels.SECONDARY} size={ButtonSizes.SM}>
