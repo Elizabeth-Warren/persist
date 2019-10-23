@@ -14,8 +14,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -47,8 +45,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -80,8 +76,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px 8px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -113,8 +107,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -146,8 +138,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -179,8 +169,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px 8px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -212,8 +200,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -245,8 +231,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -278,8 +262,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px 8px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -311,8 +293,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -344,8 +324,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -377,8 +355,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px 8px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -410,8 +386,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -443,8 +417,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -476,8 +448,6 @@ exports[`renders correctly 1`] = `
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   line-height: 1;
-  margin: auto;
-  max-width: 1150px;
   padding: 4px 16px 8px;
   -webkit-text-decoration: none;
   text-decoration: none;
