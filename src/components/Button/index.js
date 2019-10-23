@@ -75,7 +75,6 @@ const ButtonWrapper = styled.button`
     }
   }};
   line-height: ${theme.leading.none};
-  max-width: ${theme.maxWidth.section};
   padding: ${({ size }) => {
     switch (size) {
       case ButtonSizes.LG:
