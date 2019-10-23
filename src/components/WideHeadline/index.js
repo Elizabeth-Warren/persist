@@ -5,12 +5,23 @@ import theme from '../../theme';
 
 export const WideHeadlineSizes = {
   SM: 'sm',
+  MD: 'md',
   LG: 'lg',
 };
 
 const HeadlineWrapper = styled.div`
   font-family: ${theme.fontFamily.wide};
-  font-size: ${({ size }) => (size === WideHeadlineSizes.SM ? theme.fontSize.sm : theme.fontSize['3xl'])};
+  font-size: ${({ size }) => {
+    switch (size) {
+      case WideHeadlineSizes.MD:
+        return theme.fontSize.xl;
+      case WideHeadlineSizes.SM:
+        return theme.fontSize.sm;
+      case WideHeadlineSizes.LG:
+      default:
+        return theme.fontSize['3xl'];
+    }
+  }};
   font-weight: bold;
   letter-spacing: ${({ size }) => (size === WideHeadlineSizes.SM ? '1.6px' : 0)};
   line-height: ${({ size }) => (size === WideHeadlineSizes.SM ? theme.leading.tight : theme.leading.none)};

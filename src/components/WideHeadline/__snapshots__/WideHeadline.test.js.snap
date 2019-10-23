@@ -15,6 +15,18 @@ exports[`renders correctly 1`] = `
 
 .c1 {
   font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.c2 {
+  font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
   font-size: 14px;
   font-weight: bold;
   -webkit-letter-spacing: 1.6px;
@@ -35,6 +47,13 @@ exports[`renders correctly 1`] = `
   </h1>
   <h1
     className="c1"
+    size="md"
+  >
+    MD: 
+    Hello world
+  </h1>
+  <h1
+    className="c2"
     size="sm"
   >
     SM: 
