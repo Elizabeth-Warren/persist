@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 
 // Components
-export { default as BodyCopy } from './components/Button';
+export { default as BodyCopy } from './components/BodyCopy';
 export { default as Button } from './components/Button';
 export { default as Chevron } from './components/Chevron';
 export { default as Headline } from './components/Headline';
