@@ -8,6 +8,7 @@ export { default as Headline } from './components/Headline';
 export { default as HeroCard } from './components/HeroCard';
 export { default as TextLink } from './components/TextLink';
 export { default as VisuallyHidden } from './components/VisuallyHidden';
+export { default as WideHeadling } from './components/WideHeadline';
 
 // Hooks
 export { default as useBreakpoint } from './hooks/useBreakpoint';
