@@ -87,7 +87,9 @@ const ButtonWrapper = styled.button`
   }};
   text-decoration: none;
   text-transform: uppercase;
-  transition: all 150ms linear;
+  transition-duration: 150ms;
+  transition-property: background-color, border-color, color, opacity;
+  transition-timing-function: ease-in;
 
   &:disabled {
     cursor: not-allowed;
