@@ -18,8 +18,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c0:disabled {
@@ -49,8 +53,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c1:disabled {
@@ -80,8 +88,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c2:disabled {
@@ -111,8 +123,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c3:disabled {
@@ -142,8 +158,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c4:disabled {
@@ -173,8 +193,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c5:disabled {
@@ -204,8 +228,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c6:disabled {
@@ -235,8 +263,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c7:disabled {
@@ -266,8 +298,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c8:disabled {
@@ -297,8 +333,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c9:disabled {
@@ -328,8 +368,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c10:disabled {
@@ -359,8 +403,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c11:disabled {
@@ -390,8 +438,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c12:disabled {
@@ -421,8 +473,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c13:disabled {
@@ -452,8 +508,12 @@ exports[`renders correctly 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-transform: uppercase;
-  -webkit-transition: all 150ms linear;
-  transition: all 150ms linear;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
 
 .c14:disabled {

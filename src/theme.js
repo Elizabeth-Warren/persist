@@ -15,7 +15,7 @@ export default {
   },
   fontFamily: {
     sans: "'Ringside Regular A', 'Ringside Regular B', 'Helvetica', sans-serif",
-    wide: "'Ringside Wide A', 'Ringside Wide B', 'Helvetica', sans-serif",
+    wide: "'Ringside Extra Wide SSm A', 'Ringside Extra Wide SSm B', 'Helvetica', sans-serif",
     compressed: "'Ringside Compressed A', 'Ringside Compressed B', 'Helvetica', sans-serif",
   },
   fontSize: {

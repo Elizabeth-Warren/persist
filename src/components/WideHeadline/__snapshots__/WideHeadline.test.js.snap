@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 .c0 {
-  font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
+  font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 40px;
   font-weight: bold;
   -webkit-letter-spacing: 0;
@@ -14,7 +14,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c1 {
-  font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
+  font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 26px;
   font-weight: bold;
   -webkit-letter-spacing: 0;
@@ -26,7 +26,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c2 {
-  font-family: 'Ringside Wide A','Ringside Wide B','Helvetica',sans-serif;
+  font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 14px;
   font-weight: bold;
   -webkit-letter-spacing: 1.6px;
