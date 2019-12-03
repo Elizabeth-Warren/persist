@@ -43,15 +43,23 @@ const ImageWrapper = styled.div`
   margin: -${theme.spacing.sp4} ${theme.spacing.sp4} 0;
 
   @media (min-width: ${theme.screens.md}) {
+    background-image: ${({ image }) => `url(${image})`};
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     margin: 0;
+    min-height: 300px;
     width: 66.667%;
   }
 `;
 
 const Image = styled.img`
   max-width: 100%;
-  object-fit: cover;
+
+  @media (min-width: ${theme.screens.md}) {
+    display: none;
+  }
 `;
 
 const w = Math.round(parseInt(theme.maxWidth.section, 10) * 0.667);
@@ -67,7 +75,7 @@ const HeroCard = ({
         {subtitle && <Subtitle>{subtitle}</Subtitle>}
         {children}
       </Content>
-      <ImageWrapper>
+      <ImageWrapper image={imageUrl}>
         <Image src={imageUrl} alt="" />
       </ImageWrapper>
     </Wrapper>

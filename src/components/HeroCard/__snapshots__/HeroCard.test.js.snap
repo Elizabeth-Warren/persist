@@ -39,7 +39,6 @@ exports[`renders correctly 1`] = `
 
 .c6 {
   max-width: 100%;
-  object-fit: cover;
 }
 
 @media (min-width:1024px) {
@@ -73,12 +72,23 @@ exports[`renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c5 {
+    background-image: url(https://images.ctfassets.net/4ubxbgy9463z/3lPcBr8shu5sKGj0i2ZDRd/54437e08b70b346b42fbfbf2c1170dfd/new-hampshire.jpg?w=767);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     margin: 0;
+    min-height: 300px;
     width: 66.667%;
+  }
+}
+
+@media (min-width:768px) {
+  .c6 {
+    display: none;
   }
 }
 
