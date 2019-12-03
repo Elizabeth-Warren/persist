@@ -37,6 +37,7 @@ const Title = styled.h1`
 const Subtitle = styled.p`
   font-size: ${theme.fontSize.md};
   line-height: ${theme.leading.normal};
+  margin: 0 0 ${theme.spacing.sp3};
 `;
 
 const ImageWrapper = styled.div`
