@@ -7,6 +7,7 @@ export const ButtonLevels = {
   PRIMARY: 'primary',
   SECONDARY: 'secondary',
   TERTIARY: 'tertiary',
+  QUARTERNARY: 'quarternary',
   INVERTED: 'inverted',
   WHITE: 'white',
 };
@@ -25,6 +26,8 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.TERTIARY:
         return theme.colors.liberty;
+      case ButtonLevels.QUARTERNARY:
+        return theme.colors.purple;
       case ButtonLevels.INVERTED:
         return 'transparent';
       case ButtonLevels.WHITE:
@@ -41,6 +44,8 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.TERTIARY:
         return theme.colors.liberty;
+      case ButtonLevels.QUARTERNARY:
+        return theme.colors.purple;
       case ButtonLevels.WHITE:
         return theme.colors.white;
       case ButtonLevels.PRIMARY:
@@ -57,6 +62,7 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.PRIMARY:
       case ButtonLevels.SECONDARY:
+      case ButtonLevels.QUARTERNARY:
       default:
         return theme.colors.white;
     }
@@ -107,13 +113,13 @@ const ButtonWrapper = styled.button`
   }};
     color: ${({ level }) => {
     switch (level) {
-      case ButtonLevels.PRIMARY:
-      case ButtonLevels.SECONDARY:
-      case ButtonLevels.TERTIARY:
-        return theme.colors.navy;
       case ButtonLevels.INVERTED:
       case ButtonLevels.WHITE:
         return theme.colors.white;
+      case ButtonLevels.PRIMARY:
+      case ButtonLevels.SECONDARY:
+      case ButtonLevels.TERTIARY:
+      case ButtonLevels.QUARTERNARY:
       default:
         return theme.colors.navy;
     }
