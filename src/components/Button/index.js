@@ -7,7 +7,7 @@ export const ButtonLevels = {
   PRIMARY: 'primary',
   SECONDARY: 'secondary',
   TERTIARY: 'tertiary',
-  QUARTERNARY: 'quarternary',
+  QUATERNARY: 'quaternary',
   INVERTED: 'inverted',
   WHITE: 'white',
 };
@@ -26,7 +26,7 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.TERTIARY:
         return theme.colors.liberty;
-      case ButtonLevels.QUARTERNARY:
+      case ButtonLevels.QUATERNARY:
         return theme.colors.purple;
       case ButtonLevels.INVERTED:
         return 'transparent';
@@ -44,7 +44,7 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.TERTIARY:
         return theme.colors.liberty;
-      case ButtonLevels.QUARTERNARY:
+      case ButtonLevels.QUATERNARY:
         return theme.colors.purple;
       case ButtonLevels.WHITE:
         return theme.colors.white;
@@ -62,7 +62,7 @@ const ButtonWrapper = styled.button`
         return theme.colors.navy;
       case ButtonLevels.PRIMARY:
       case ButtonLevels.SECONDARY:
-      case ButtonLevels.QUARTERNARY:
+      case ButtonLevels.QUATERNARY:
       default:
         return theme.colors.white;
     }
@@ -119,7 +119,7 @@ const ButtonWrapper = styled.button`
       case ButtonLevels.PRIMARY:
       case ButtonLevels.SECONDARY:
       case ButtonLevels.TERTIARY:
-      case ButtonLevels.QUARTERNARY:
+      case ButtonLevels.QUATERNARY:
       default:
         return theme.colors.navy;
     }
