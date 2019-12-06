@@ -1,6 +1,6 @@
 {
   "name": "@ewarren/persist",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "description": "Shared library of React components and hooks. Persist responsibly.",
   "main": "lib/index.js",
   "repository": {
