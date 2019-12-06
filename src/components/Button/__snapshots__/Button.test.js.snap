@@ -320,10 +320,10 @@ exports[`renders correctly 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: transparent;
-  border: 4px solid #232444;
+  background: #575993;
+  border: 4px solid #575993;
   border-radius: 0;
-  color: #232444;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
@@ -347,18 +347,18 @@ exports[`renders correctly 1`] = `
 }
 
 .c9:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
+  background-color: transparent;
+  color: #232444;
 }
 
 .c10 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: transparent;
-  border: 4px solid #232444;
+  background: #575993;
+  border: 4px solid #575993;
   border-radius: 0;
-  color: #232444;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
@@ -382,18 +382,18 @@ exports[`renders correctly 1`] = `
 }
 
 .c10:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
+  background-color: transparent;
+  color: #232444;
 }
 
 .c11 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: transparent;
-  border: 4px solid #232444;
+  background: #575993;
+  border: 4px solid #575993;
   border-radius: 0;
-  color: #232444;
+  color: #fff;
   cursor: pointer;
   display: inline-block;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
@@ -417,16 +417,16 @@ exports[`renders correctly 1`] = `
 }
 
 .c11:hover:not(:disabled) {
-  background-color: #232444;
-  color: #fff;
+  background-color: transparent;
+  color: #232444;
 }
 
 .c12 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #fff;
-  border: 4px solid #fff;
+  background: transparent;
+  border: 4px solid #232444;
   border-radius: 0;
   color: #232444;
   cursor: pointer;
@@ -452,7 +452,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c12:hover:not(:disabled) {
-  background-color: transparent;
+  background-color: #232444;
   color: #fff;
 }
 
@@ -460,8 +460,8 @@ exports[`renders correctly 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #fff;
-  border: 4px solid #fff;
+  background: transparent;
+  border: 4px solid #232444;
   border-radius: 0;
   color: #232444;
   cursor: pointer;
@@ -487,7 +487,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c13:hover:not(:disabled) {
-  background-color: transparent;
+  background-color: #232444;
   color: #fff;
 }
 
@@ -495,8 +495,8 @@ exports[`renders correctly 1`] = `
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #fff;
-  border: 4px solid #fff;
+  background: transparent;
+  border: 4px solid #232444;
   border-radius: 0;
   color: #232444;
   cursor: pointer;
@@ -522,6 +522,111 @@ exports[`renders correctly 1`] = `
 }
 
 .c14:hover:not(:disabled) {
+  background-color: #232444;
+  color: #fff;
+}
+
+.c15 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 0;
+  color: #232444;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  padding: 4px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.c15:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c15:hover:not(:disabled) {
+  background-color: transparent;
+  color: #fff;
+}
+
+.c16 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 0;
+  color: #232444;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  padding: 4px 16px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.c16:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c16:hover:not(:disabled) {
+  background-color: transparent;
+  color: #fff;
+}
+
+.c17 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 0;
+  color: #232444;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
+  font-size: 26px;
+  line-height: 1;
+  padding: 4px 16px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition-duration: 150ms;
+  transition-duration: 150ms;
+  -webkit-transition-property: background-color,border-color,color,opacity;
+  transition-property: background-color,border-color,color,opacity;
+  -webkit-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+}
+
+.c17:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.c17:hover:not(:disabled) {
   background-color: transparent;
   color: #fff;
 }
@@ -552,6 +657,12 @@ exports[`renders correctly 1`] = `
 
 @media (min-width:768px) {
   .c14 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width:768px) {
+  .c17 {
     font-size: 36px;
   }
 }
@@ -771,6 +882,50 @@ exports[`renders correctly 1`] = `
      
     <button
       className="c14"
+      disabled={true}
+      size="lg"
+    >
+      Click me
+    </button>
+  </div>
+  <div>
+    <button
+      className="c15"
+      size="sm"
+    >
+      Click me
+    </button>
+     
+    <button
+      className="c15"
+      disabled={true}
+      size="sm"
+    >
+      Click me
+    </button>
+    <button
+      className="c16"
+      size="md"
+    >
+      Click me
+    </button>
+     
+    <button
+      className="c16"
+      disabled={true}
+      size="md"
+    >
+      Click me
+    </button>
+    <button
+      className="c17"
+      size="lg"
+    >
+      Click me
+    </button>
+     
+    <button
+      className="c17"
       disabled={true}
       size="lg"
     >
