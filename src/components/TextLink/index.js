@@ -25,6 +25,8 @@ const LinkWrapper = styled.a`
 };
   border-bottom: ${({ level }) => (level === TextLinkLevels.TERTIARY ? `1px solid ${theme.colors.liberty}` : 'none')};
   color: ${theme.colors.black};
+  cursor: pointer;
+  font-family: ${theme.fontFamily.sans};
   font-size: ${theme.fontSize.md};
   font-weight: bold;
   text-decoration: none;
