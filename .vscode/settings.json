@@ -1,15 +1,17 @@
 {
   "css.validate": false,
   "editor.rulers": [80],
-  "eslint.autoFixOnSave": true,
   "eslint.enable": true,
   "eslint.run": "onType",
   "eslint.validate": [
-      {"language": "javascript", "autoFix": true},
-      {"language": "javascriptreact", "autoFix": true},
-      {"language": "json", "autoFix": true},
-      {"language": "html", "autoFix": true},
+    "javascript",
+    "javascriptreact",
+    "json",
+    "html"
   ],
   "files.autoSave": "off",
-  "stylelint.enable": true
+  "stylelint.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
