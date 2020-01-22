@@ -29,6 +29,8 @@ exports[`renders correctly 1`] = `
 .c0 {
   border-bottom: none;
   color: #171717;
+  cursor: pointer;
+  font-family: 'Ringside Regular A','Ringside Regular B','Helvetica',sans-serif;
   font-size: 18px;
   font-weight: bold;
   -webkit-text-decoration: none;
@@ -55,6 +57,8 @@ exports[`renders correctly 1`] = `
   background: linear-gradient(to bottom,transparent 0%,transparent 65%,#b7e4cf 65%,#b7e4cf 100%);
   border-bottom: none;
   color: #171717;
+  cursor: pointer;
+  font-family: 'Ringside Regular A','Ringside Regular B','Helvetica',sans-serif;
   font-size: 18px;
   font-weight: bold;
   -webkit-text-decoration: none;
@@ -80,6 +84,8 @@ exports[`renders correctly 1`] = `
 .c5 {
   border-bottom: 1px solid #b7e4cf;
   color: #171717;
+  cursor: pointer;
+  font-family: 'Ringside Regular A','Ringside Regular B','Helvetica',sans-serif;
   font-size: 18px;
   font-weight: bold;
   -webkit-text-decoration: none;
