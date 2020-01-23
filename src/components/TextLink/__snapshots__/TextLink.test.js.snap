@@ -78,11 +78,11 @@ exports[`renders correctly 1`] = `
 
 .c4:active {
   background: none;
-  border-bottom: 1px solid #b7e4cf;
+  border-bottom: 2px solid #b7e4cf;
 }
 
 .c5 {
-  border-bottom: 1px solid #b7e4cf;
+  border-bottom: 2px solid #b7e4cf;
   color: #171717;
   cursor: pointer;
   font-family: 'Ringside Regular A','Ringside Regular B','Helvetica',sans-serif;
@@ -95,7 +95,7 @@ exports[`renders correctly 1`] = `
 .c5:hover,
 .c5:focus {
   background: none;
-  border-bottom: 1px solid #171717;
+  border-bottom: 2px solid #171717;
 }
 
 .c5:hover .c2,

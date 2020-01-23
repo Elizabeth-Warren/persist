@@ -23,7 +23,7 @@ const LinkWrapper = styled.a`
     ? `linear-gradient(to bottom,transparent 0%,transparent 65%,${theme.colors.liberty} 65%,${theme.colors.liberty} 100%)`
     : null)
 };
-  border-bottom: ${({ level }) => (level === TextLinkLevels.TERTIARY ? `1px solid ${theme.colors.liberty}` : 'none')};
+  border-bottom: ${({ level }) => (level === TextLinkLevels.TERTIARY ? `2px solid ${theme.colors.liberty}` : 'none')};
   color: ${theme.colors.black};
   cursor: pointer;
   font-family: ${theme.fontFamily.sans};
@@ -34,7 +34,7 @@ const LinkWrapper = styled.a`
   &:hover,
   &:focus {
     background: none;
-    border-bottom: ${({ level }) => (level === TextLinkLevels.TERTIARY ? `1px solid ${theme.colors.black}` : 'none')};
+    border-bottom: ${({ level }) => (level === TextLinkLevels.TERTIARY ? `2px solid ${theme.colors.black}` : 'none')};
 
     & ${ChevronWrapper} {
       left: 0.5em;
@@ -43,7 +43,7 @@ const LinkWrapper = styled.a`
 
   &:active {
     background: none;
-    border-bottom: ${({ level }) => (level === TextLinkLevels.SECONDARY ? `1px solid ${theme.colors.liberty}` : 'none')};
+    border-bottom: ${({ level }) => (level === TextLinkLevels.SECONDARY ? `2px solid ${theme.colors.liberty}` : 'none')};
   }
 `;
 
