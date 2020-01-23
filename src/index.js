@@ -16,3 +16,6 @@ export { default as useBreakpoint } from './hooks/useBreakpoint';
 // Utility functions
 export { default as getContentfulImage } from './utils/getContentfulImage';
 export { default as serializeObject } from './utils/serializeObject';
+
+// Theme
+export { default as theme } from './theme';
