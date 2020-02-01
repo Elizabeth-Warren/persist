@@ -12,7 +12,14 @@ export const BodyCopySizes = {
   XL: 'xl',
 };
 
+export const BodyCopyWeights = {
+  light: 'light',
+  normal: 'normal',
+  bold: 'bold',
+};
+
 const CopyWrapper = styled.span`
+  color: ${({ color }) => theme.colors[color]};
   font-family: ${theme.fontFamily.sans};
   font-size: ${({ size }) => {
     switch (size) {
@@ -29,6 +36,18 @@ const CopyWrapper = styled.span`
       case BodyCopySizes.MD:
       default:
         return theme.fontSize.md;
+    }
+  }};
+  font-weight: ${({ weight }) => {
+    switch (weight) {
+      case BodyCopyWeights.light:
+        return theme.fontWeight.light;
+      case BodyCopyWeights.normal:
+        return theme.fontWeight.normal;
+      case BodyCopyWeights.bold:
+        return theme.fontWeight.bold;
+      default:
+        return theme.fontWeight.normal;
     }
   }};
   line-height: ${({ size }) => {
@@ -60,10 +79,15 @@ BodyCopy.propTypes = {
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   /** Size of the headline */
   size: PropTypes.oneOf(Object.values(BodyCopySizes)),
+  /** Font weight of the headline */
+  weight: PropTypes.oneOf(Object.values(BodyCopyWeights)),
+  colors: PropTypes.oneOf(Object.keys(theme.colors)),
 };
 
 BodyCopy.defaultProps = {
   size: BodyCopySizes.MD,
+  weight: BodyCopyWeights.normal,
+  colors: theme.colors.black,
 };
 
 export default BodyCopy;

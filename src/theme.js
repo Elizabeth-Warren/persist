@@ -30,6 +30,12 @@ export default {
     '4xl': '72px',
     '5xl': '110px',
   },
+  fontWeight: {
+    light: 300,
+    normal: 400,
+    bold: 700,
+    extraBold: 800,
+  },
   leading: {
     sub: 0.9,
     none: 1,
