@@ -13,13 +13,13 @@ export const BodyCopySizes = {
 };
 
 export const BodyCopyWeights = {
-  light: 'light',
-  normal: 'normal',
-  bold: 'bold',
+  LIGHT: 'light',
+  NORMAL: 'normal',
+  BOLD: 'bold',
 };
 
 const CopyWrapper = styled.span`
-  color: ${({ color }) => theme.colors[color]};
+  color: ${({ color }) => theme.colors[color] || 'inherit'};
   font-family: ${theme.fontFamily.sans};
   font-size: ${({ size }) => {
     switch (size) {
@@ -40,11 +40,11 @@ const CopyWrapper = styled.span`
   }};
   font-weight: ${({ weight }) => {
     switch (weight) {
-      case BodyCopyWeights.light:
+      case BodyCopyWeights.LIGHT:
         return theme.fontWeight.light;
-      case BodyCopyWeights.normal:
+      case BodyCopyWeights.NORMAL:
         return theme.fontWeight.normal;
-      case BodyCopyWeights.bold:
+      case BodyCopyWeights.BOLD:
         return theme.fontWeight.bold;
       default:
         return theme.fontWeight.normal;
@@ -80,15 +80,15 @@ BodyCopy.propTypes = {
   /** Size of the body copy */
   size: PropTypes.oneOf(Object.values(BodyCopySizes)),
   /** Font weight of the body copy */
-  weight: PropTypes.oneOf(Object.values(BodyCopyWeights)),
-  /** Colors taken directly from theme */
-  colors: PropTypes.oneOf(Object.keys(theme.colors)),
+  weight: PropTypes.oneOf(['inherit', ...Object.values(BodyCopyWeights)]),
+  /** Selected Color applied directly from theme */
+  colors: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
 };
 
 BodyCopy.defaultProps = {
   size: BodyCopySizes.MD,
-  weight: BodyCopyWeights.normal,
-  colors: theme.colors.black,
+  weight: 'inherit',
+  colors: 'inherit',
 };
 
 export default BodyCopy;
