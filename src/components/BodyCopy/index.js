@@ -12,7 +12,14 @@ export const BodyCopySizes = {
   XL: 'xl',
 };
 
+export const BodyCopyWeights = {
+  LIGHT: 'light',
+  NORMAL: 'normal',
+  BOLD: 'bold',
+};
+
 const CopyWrapper = styled.span`
+  color: ${({ color }) => theme.colors[color] || 'inherit'};
   font-family: ${theme.fontFamily.sans};
   font-size: ${({ size }) => {
     switch (size) {
@@ -29,6 +36,18 @@ const CopyWrapper = styled.span`
       case BodyCopySizes.MD:
       default:
         return theme.fontSize.md;
+    }
+  }};
+  font-weight: ${({ weight }) => {
+    switch (weight) {
+      case BodyCopyWeights.LIGHT:
+        return theme.fontWeight.light;
+      case BodyCopyWeights.NORMAL:
+        return theme.fontWeight.normal;
+      case BodyCopyWeights.BOLD:
+        return theme.fontWeight.bold;
+      default:
+        return 'inherit';
     }
   }};
   line-height: ${({ size }) => {
@@ -58,12 +77,18 @@ BodyCopy.propTypes = {
   children: PropTypes.node.isRequired,
   /** HTML tag name or React element. */
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
-  /** Size of the headline */
+  /** Size of the body copy */
   size: PropTypes.oneOf(Object.values(BodyCopySizes)),
+  /** Font weight of the body copy */
+  weight: PropTypes.oneOf(['inherit', ...Object.values(BodyCopyWeights)]),
+  /** Selected Color applied directly from theme */
+  colors: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
 };
 
 BodyCopy.defaultProps = {
   size: BodyCopySizes.MD,
+  weight: 'inherit',
+  colors: 'inherit',
 };
 
 export default BodyCopy;

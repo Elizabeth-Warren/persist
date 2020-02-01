@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { select, text } from '@storybook/addon-knobs';
-import BodyCopy, { BodyCopySizes } from './index';
+import BodyCopy, { BodyCopySizes, BodyCopyWeights } from './index';
 import theme from '../../theme';
 
 export default {
@@ -15,11 +15,15 @@ export const withKnobs = () => {
   const tag = text('Tag', 'p');
   const copy = text('Text', sampleText);
   const size = select('Size', Object.values(BodyCopySizes), BodyCopy.defaultProps.size);
+  const weight = select('Weight', Object.values(BodyCopyWeights), BodyCopy.defaultProps.weight);
+  const color = select('Color', Object.keys(theme.colors), BodyCopy.defaultProps.color);
   return (
     <div>
       <BodyCopy
         as={tag}
         size={size}
+        weight={weight}
+        color={color}
       >
         {copy}
       </BodyCopy>
