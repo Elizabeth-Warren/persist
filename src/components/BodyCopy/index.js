@@ -77,10 +77,11 @@ BodyCopy.propTypes = {
   children: PropTypes.node.isRequired,
   /** HTML tag name or React element. */
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
-  /** Size of the headline */
+  /** Size of the body copy */
   size: PropTypes.oneOf(Object.values(BodyCopySizes)),
-  /** Font weight of the headline */
+  /** Font weight of the body copy */
   weight: PropTypes.oneOf(Object.values(BodyCopyWeights)),
+  /** Colors taken directly from theme */
   colors: PropTypes.oneOf(Object.keys(theme.colors)),
 };
 
