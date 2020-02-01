@@ -47,7 +47,7 @@ const CopyWrapper = styled.span`
       case BodyCopyWeights.BOLD:
         return theme.fontWeight.bold;
       default:
-        return theme.fontWeight.normal;
+        return 'inherit';
     }
   }};
   line-height: ${({ size }) => {
