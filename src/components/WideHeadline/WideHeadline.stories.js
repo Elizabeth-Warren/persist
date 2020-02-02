@@ -16,11 +16,13 @@ export const withKnobs = () => {
   const tag = text('Tag', 'h1');
   const copy = text('Text', sampleText);
   const size = select('Size', Object.values(WideHeadlineSizes), WideHeadline.defaultProps.size);
+  const color = select('Color', Object.keys(theme.colors), WideHeadline.defaultProps.color);
   return (
     <div>
       <WideHeadline
         as={tag}
         size={size}
+        color={color}
       >
         {copy}
       </WideHeadline>
