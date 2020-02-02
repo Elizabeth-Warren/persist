@@ -82,13 +82,13 @@ BodyCopy.propTypes = {
   /** Font weight of the body copy */
   weight: PropTypes.oneOf(['inherit', ...Object.values(BodyCopyWeights)]),
   /** Selected Color applied directly from theme */
-  colors: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
+  color: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
 };
 
 BodyCopy.defaultProps = {
   size: BodyCopySizes.MD,
   weight: 'inherit',
-  colors: 'inherit',
+  color: 'inherit',
 };
 
 export default BodyCopy;

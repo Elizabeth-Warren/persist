@@ -16,6 +16,7 @@ export const withKnobs = () => {
   const size = select('Size', Object.values(HeadlineSizes), Headline.defaultProps.size);
   const allCaps = boolean('All caps', Headline.defaultProps.allCaps);
   const breakpoint = text('Breakpoint', Headline.defaultProps.breakpoint);
+  const color = select('Color', Object.keys(theme.colors), Headline.defaultProps.color);
   return (
     <div>
       <Headline
@@ -23,6 +24,7 @@ export const withKnobs = () => {
         size={size}
         allCaps={allCaps}
         breakpoint={breakpoint}
+        color={color}
       >
         {headlineText}
       </Headline>
