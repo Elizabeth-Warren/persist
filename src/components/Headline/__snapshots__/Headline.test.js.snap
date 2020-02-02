@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 .c0 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 72px;
   font-weight: bold;
@@ -14,6 +15,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c1 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -26,6 +28,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c2 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 36px;
   font-weight: bold;
@@ -38,6 +41,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c3 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -50,6 +54,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c4 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 22px;
   font-weight: bold;
@@ -114,6 +119,7 @@ exports[`renders correctly 1`] = `
 <div>
   <h1
     className="c0"
+    color="inherit"
     size="xl"
   >
     XL: 
@@ -121,6 +127,7 @@ exports[`renders correctly 1`] = `
   </h1>
   <h1
     className="c1"
+    color="inherit"
     size="lg"
   >
     LG: 
@@ -128,6 +135,7 @@ exports[`renders correctly 1`] = `
   </h1>
   <h1
     className="c2"
+    color="inherit"
     size="md"
   >
     MD: 
@@ -135,6 +143,7 @@ exports[`renders correctly 1`] = `
   </h1>
   <h1
     className="c3"
+    color="inherit"
     size="sm"
   >
     SM: 
@@ -142,6 +151,7 @@ exports[`renders correctly 1`] = `
   </h1>
   <h1
     className="c4"
+    color="inherit"
     size="xs"
   >
     XS: 
