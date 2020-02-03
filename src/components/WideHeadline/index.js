@@ -10,6 +10,7 @@ export const WideHeadlineSizes = {
 };
 
 const HeadlineWrapper = styled.div`
+  color: ${({ textColor }) => theme.colors[textColor] || 'inherit'};
   font-family: ${theme.fontFamily.wide};
   font-size: ${({ size }) => {
     switch (size) {
@@ -34,7 +35,7 @@ const WideHeadline = ({
   <HeadlineWrapper
     as={as}
     size={size}
-    color={color}
+    textColor={color}
     {...other}
   >
     {children}

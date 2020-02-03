@@ -12,7 +12,7 @@ export const HeadlineSizes = {
 };
 
 const HeadlineWrapper = styled.div`
-  color: ${({ color }) => theme.colors[color] || 'inherit'};
+  color: ${({ textColor }) => theme.colors[textColor] || 'inherit'};
   font-family: ${theme.fontFamily.compressed};
   font-size: ${({ size }) => {
     switch (size) {
@@ -78,7 +78,7 @@ const Headline = ({
     as={as}
     breakpoint={breakpoint}
     size={size}
-    color={color}
+    textColor={color}
     {...other}
   >
     {children}

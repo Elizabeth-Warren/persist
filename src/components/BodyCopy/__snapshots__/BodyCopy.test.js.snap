@@ -52,7 +52,6 @@ exports[`renders correctly 1`] = `
 <div>
   <p
     className="c0"
-    color="inherit"
     size="xl"
   >
     XL: 
@@ -60,7 +59,6 @@ exports[`renders correctly 1`] = `
   </p>
   <p
     className="c1"
-    color="inherit"
     size="lg"
   >
     LG: 
@@ -68,7 +66,6 @@ exports[`renders correctly 1`] = `
   </p>
   <p
     className="c2"
-    color="inherit"
     size="md"
   >
     MD: 
@@ -76,7 +73,6 @@ exports[`renders correctly 1`] = `
   </p>
   <p
     className="c3"
-    color="inherit"
     size="sm"
   >
     SM: 
@@ -84,7 +80,6 @@ exports[`renders correctly 1`] = `
   </p>
   <p
     className="c4"
-    color="inherit"
     size="xs"
   >
     XS: 
@@ -92,7 +87,6 @@ exports[`renders correctly 1`] = `
   </p>
   <p
     className="c5"
-    color="inherit"
     size="2xs"
   >
     2XS: 

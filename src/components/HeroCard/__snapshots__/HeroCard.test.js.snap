@@ -102,7 +102,6 @@ exports[`renders correctly 1`] = `
   >
     <h1
       className="c2 c3"
-      color="inherit"
       size="lg"
     >
       Pledge to vote
