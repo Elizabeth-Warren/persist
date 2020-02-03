@@ -19,7 +19,7 @@ export const BodyCopyWeights = {
 };
 
 const CopyWrapper = styled.span`
-  color: ${({ color }) => theme.colors[color] || 'inherit'};
+  color: ${({ textColor }) => theme.colors[textColor] || 'inherit'};
   font-family: ${theme.fontFamily.sans};
   font-size: ${({ size }) => {
     switch (size) {
@@ -61,11 +61,12 @@ const CopyWrapper = styled.span`
 `;
 
 const BodyCopy = ({
-  children, size, as, ...other
+  children, size, as, color, ...other
 }) => (
   <CopyWrapper
     as={as}
     size={size}
+    textColor={color}
     {...other}
   >
     {children}
