@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 .c3 {
+  color: inherit;
   font-family: 'Ringside Compressed A','Ringside Compressed B','Helvetica',sans-serif;
   font-size: 40px;
   font-weight: bold;

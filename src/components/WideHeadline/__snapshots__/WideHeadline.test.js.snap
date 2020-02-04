@@ -2,6 +2,7 @@
 
 exports[`renders correctly 1`] = `
 .c0 {
+  color: inherit;
   font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -14,6 +15,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c1 {
+  color: inherit;
   font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 26px;
   font-weight: bold;
@@ -26,6 +28,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c2 {
+  color: inherit;
   font-family: 'Ringside Extra Wide SSm A','Ringside Extra Wide SSm B','Helvetica',sans-serif;
   font-size: 14px;
   font-weight: bold;

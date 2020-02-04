@@ -10,6 +10,7 @@ export const WideHeadlineSizes = {
 };
 
 const HeadlineWrapper = styled.div`
+  color: ${({ textColor }) => theme.colors[textColor] || 'inherit'};
   font-family: ${theme.fontFamily.wide};
   font-size: ${({ size }) => {
     switch (size) {
@@ -29,11 +30,12 @@ const HeadlineWrapper = styled.div`
 `;
 
 const WideHeadline = ({
-  as, children, size, ...other
+  as, children, size, color, ...other
 }) => (
   <HeadlineWrapper
     as={as}
     size={size}
+    textColor={color}
     {...other}
   >
     {children}
@@ -47,10 +49,13 @@ WideHeadline.propTypes = {
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   /** Size of the headline */
   size: PropTypes.oneOf(Object.values(WideHeadlineSizes)),
+  /** Color of the headline */
+  color: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
 };
 
 WideHeadline.defaultProps = {
   size: WideHeadlineSizes.LG,
+  color: 'inherit',
 };
 
 export default WideHeadline;

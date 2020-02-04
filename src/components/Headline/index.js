@@ -12,6 +12,7 @@ export const HeadlineSizes = {
 };
 
 const HeadlineWrapper = styled.div`
+  color: ${({ textColor }) => theme.colors[textColor] || 'inherit'};
   font-family: ${theme.fontFamily.compressed};
   font-size: ${({ size }) => {
     switch (size) {
@@ -70,13 +71,14 @@ const HeadlineWrapper = styled.div`
 `;
 
 const Headline = ({
-  children, size, as, breakpoint, allCaps, ...other
+  children, size, as, breakpoint, allCaps, color, ...other
 }) => (
   <HeadlineWrapper
     allCaps={allCaps}
     as={as}
     breakpoint={breakpoint}
     size={size}
+    textColor={color}
     {...other}
   >
     {children}
@@ -90,6 +92,8 @@ Headline.propTypes = {
   as: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
   /** Size of the headline */
   size: PropTypes.oneOf(Object.values(HeadlineSizes)),
+  /** Color of the headline */
+  color: PropTypes.oneOf(['inherit', ...Object.keys(theme.colors)]),
   /**
    * Screen width at or above which the headline takes on a larger font size.
    * Should be an em, rem, or px value.
@@ -103,6 +107,7 @@ Headline.defaultProps = {
   size: HeadlineSizes.LG,
   breakpoint: theme.screens.md,
   allCaps: true,
+  color: 'inherit',
 };
 
 export default Headline;
